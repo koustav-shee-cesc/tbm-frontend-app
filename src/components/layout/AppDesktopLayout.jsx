@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { MiniDrawer, FooterElement,PrimarySearchAppBar,} from '../../components';
+import MiniDrawer from '../MiniDrawer'
+import FooterElement from '../FooterElement'
+import PrimarySearchAppBar from '../PrimarySearchAppBar';
 import { Breadcrumb, Layout, theme } from 'antd';
 const { Content, Footer } = Layout;
 import { Outlet } from 'react-router-dom';
